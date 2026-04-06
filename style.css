@@ -92,6 +92,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .information-container h2 {
@@ -101,6 +102,7 @@ h1 {
 .information-content {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
@@ -123,10 +125,35 @@ h1 {
     padding: 10px;
 }
 
-/* .information-text {
+/* #endregion Information Section */
+
+/* #region Quote Section */
+.quote-container {
     display: flex;
-    flex-direction: row;
-    gap: 40px;
-    width: 200px;
-} */
-/* #ndregion Information Section */
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 0 100px;
+}
+
+.quote-content {
+    width: 70%;
+    padding: 80px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote-author {
+    color: #1f2937;
+    font-weight: 900;
+    text-align: right;
+    padding: 20px;
+}
+/* #endregion Quote Section */
