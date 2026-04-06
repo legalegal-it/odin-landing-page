@@ -189,3 +189,11 @@ h1 {
     font-weight: 500;
 }
 /* #endregion CTA Section */
+
+/* #region Footer Section */
+.footer-content {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* #endregion Footer Section */
