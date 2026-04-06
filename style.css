@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300&display=swap");
 
+/* #region Default Styles */
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +30,7 @@ footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
+/* #endregion Default Styles */
 
 /* #region Header Section */
 .header {
@@ -157,3 +159,33 @@ h1 {
     padding: 20px;
 }
 /* #endregion Quote Section */
+
+/* #region CTA Section */
+.cta-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 80px auto;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 40px 100px;
+}
+
+.cta-bold {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cta-text {
+    font-weight: 300;
+}
+
+.cta-button {
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+/* #endregion CTA Section */
